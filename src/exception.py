@@ -1,5 +1,5 @@
 import sys
-
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()  #exc_tb gives all info about exceptions ,which file,line (tb is traceback)...
